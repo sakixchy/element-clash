@@ -37,7 +37,7 @@ body {
     width: max-content;
     position: absolute;
     bottom: 10px;
-    left: 140px;
+    left: 160px;
     padding: 10px;
 }
 
@@ -54,8 +54,28 @@ body {
 
 #fire > img {
     width: 56px;
+    transition: 0.4s;
 }
 
 #snow > img {
     width: 60px;
+    transition: 0.4s;
 }
+
+#water > img {
+    transition: 0.3s;
+}
+
+/* Hover Effects for elements */
+#fire > img:hover {
+    transform: scale(1.25);
+}
+
+#water > img:hover {
+    transform: scale(1.25);
+}
+
+#snow > img:hover {
+    transform: scale(1.25);
+}
+
