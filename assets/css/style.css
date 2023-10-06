@@ -5,11 +5,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(15, 143, 233);
+}
+
 /* Logo Styles */
 .logo > img{
    margin: 0 auto;
    width: 200px;
-   box-shadow: 2 2 rgb(255, 255, 255);
 }
 
 .logo {
