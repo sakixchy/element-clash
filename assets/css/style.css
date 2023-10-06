@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: rgb(15, 143, 233);
+    background-color: rgba(15, 143, 233,.8);
+    font-family: 'Kalam', cursive;
 }
 
 /* Logo Styles */
