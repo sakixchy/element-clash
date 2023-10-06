@@ -5,3 +5,13 @@
     box-sizing: border-box;
 }
 
+/* Logo Styles */
+.logo > img{
+   margin: 0 auto;
+   width: 200px;
+   box-shadow: 2 2 rgb(255, 255, 255);
+}
+
+.logo {
+    text-align: center;
+}
