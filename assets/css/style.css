@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
     background-color: rgba(15, 143, 233,.8);
     font-family: 'Kalam', cursive;
@@ -18,4 +19,15 @@ body {
 
 .logo {
     text-align: center;
+}
+
+/* Game Container Styles */
+.game-container {
+    background-color: rgb(255, 255, 255);
+    margin: 60px auto;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 8px rgb(128, 128, 128);
+    
 }
