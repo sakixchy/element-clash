@@ -8,21 +8,40 @@ let fireDiv = document.getElementById('fire');
 let waterDiv = document.getElementById('water');
 let snowDiv = document.getElementById('snow');
 
-/* Event listeners for clicking things */
 
+/* Function for Computer Choice */
 function getComputerChoice () {
     let choices = ['fire','water','snow'];
     let randomNumber = (Math.floor(Math.random() * 3));
+    return choices[randomNumber];
 }
 getComputerChoice();
 
-function game (userChoice) {
-       
+function game(userChoice) {
+       let computerChoice = getComputerChoice();
+       switch (userChoice + computerChoice) {
+        case 'firesnow':
+        case 'waterfire':
+        case 'snowwater':
+           console.log('User wins!!!');
+           break;
+        case 'firewater':
+        case 'watersnow':
+        case 'snowfire':
+            console.log('User loses!!!');
+            break;
+        case 'firefire':
+        case 'waterwater':
+        case 'snowsnow':
+            console.log('Its a tie!!!');
+            break;
+  }
 }
 
 
 function main (){
 
+/* Event listeners for clicking things */
     fireDiv.addEventListener('click', function() {
         game('fire');
     } )
