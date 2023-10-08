@@ -40,12 +40,6 @@ body {
     font-weight: bolder;
 }
 
-.user-score {
-    left: 20px;
-    position: absolute;
-}
-
-
 /* Styles for Game Elements */
 .game-moves {
     width: max-content;
@@ -92,4 +86,3 @@ body {
 #snow > img:hover {
     transform: scale(1.25);
 }
-
