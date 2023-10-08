@@ -10,15 +10,31 @@ let snowDiv = document.getElementById('snow');
 
 /* Event listeners for clicking things */
 
-fireDiv.addEventListener('click', function() {
-    console.log('Hey, you clicked on Fire!!!')
-} )
+function getComputerChoice () {
+    let choices = ['fire','water','snow'];
+    let randomNumber = (Math.floor(Math.random() * 3));
+}
+getComputerChoice();
 
-waterDiv.addEventListener('click', function() {
-    console.log('Hey, you clicked on Water!!!')
-} )
+function game (userChoice) {
+       
+}
 
-snowDiv.addEventListener('click', function() {
-    console.log('Hey, you clicked on Snow!!!')
-} )
 
+function main (){
+
+    fireDiv.addEventListener('click', function() {
+        game('fire');
+    } )
+
+    waterDiv.addEventListener('click', function() {
+        game('water');
+    } )
+
+    snowDiv.addEventListener('click', function() {
+        game('snow');
+    } )
+} 
+
+
+main();
