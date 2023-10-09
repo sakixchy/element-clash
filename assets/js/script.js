@@ -22,12 +22,16 @@ function win(userChoice, computerChoice) {
     gameResult.innerHTML = userChoice + " beats " + computerChoice + ". You win!";
 }
 
-function lose() {
-   
+
+function lose(userChoice, computerChoice) {
+    computerScore++;
+    computerScoreSpan.innerHTML = userScore;
+    gameResult.innerHTML = userChoice + " loses to " + computerChoice + ". You lost!";
 }
 
-function draw() {
-
+function draw(userChoice, computerChoice) {
+    userScoreSpan.innerHTML = userScore;
+    gameResult.innerHTML = userChoice + " vs " + computerChoice + ". It's a draw!";
 }
 
 function game(userChoice) {
