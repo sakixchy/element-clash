@@ -15,7 +15,20 @@ function getComputerChoice () {
     let randomNumber = (Math.floor(Math.random() * 3));
     return choices[randomNumber];
 }
-getComputerChoice();
+
+function win(userChoice, computerChoice) {
+    userScore++;
+    userScoreSpan.innerHTML = userScore;
+    gameResult.innerHTML = userChoice + " beats " + computerChoice + ". You win!";
+}
+
+function lose() {
+   
+}
+
+function draw() {
+
+}
 
 function game(userChoice) {
        let computerChoice = getComputerChoice();
@@ -23,17 +36,17 @@ function game(userChoice) {
         case 'firesnow':
         case 'waterfire':
         case 'snowwater':
-           console.log('User wins!!!');
+           win(userChoice, computerChoice);
            break;
         case 'firewater':
         case 'watersnow':
         case 'snowfire':
-            console.log('User loses!!!');
+            lose(userChoice, computerChoice);
             break;
         case 'firefire':
         case 'waterwater':
         case 'snowsnow':
-            console.log('Its a tie!!!');
+            draw(userChoice, computerChoice);
             break;
   }
 }
