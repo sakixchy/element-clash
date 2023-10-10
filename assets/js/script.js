@@ -16,6 +16,7 @@ function getComputerChoice () {
     return choices[randomNumber];
 }
 
+/* Function for user win or lose and draw */
 function win(userChoice, computerChoice) {
     userScore++;
     userScoreSpan.innerHTML = userScore;
@@ -34,6 +35,7 @@ function draw(userChoice, computerChoice) {
     gameResult.innerHTML = userChoice + " vs " + computerChoice + ". It's a draw!";
 }
 
+/* Game function for elements */
 function game(userChoice) {
        let computerChoice = getComputerChoice();
        switch (userChoice + computerChoice) {

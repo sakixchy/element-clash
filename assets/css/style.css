@@ -86,3 +86,11 @@ body {
 #snow > img:hover {
     transform: scale(1.25);
 }
+
+/* Game results styles. */
+.result {
+    text-align: center;
+    font-size: 200%;
+    text-transform: capitalize;
+
+}
