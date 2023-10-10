@@ -26,7 +26,7 @@ function win(userChoice, computerChoice) {
 
 function lose(userChoice, computerChoice) {
     computerScore++;
-    computerScoreSpan.innerHTML = userScore;
+    computerScoreSpan.innerHTML = computerScore;
     gameResult.innerHTML = userChoice + " loses to " + computerChoice + ". You lost!";
 }
 
