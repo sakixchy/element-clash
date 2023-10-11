@@ -129,15 +129,33 @@ body {
 
 }
 
-#username {
+/* Styles for username input */
+.username {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#username-input{
     border: 3px solid rgb(0, 0, 0);
     border-radius: 20px;
     height: 40px;
     width: 200px;
     text-align: center;
     font-family: 'Kalam', cursive;
-    position: absolute;
-    left: 620px;
-    bottom: 424px;
-   
 }
+
+/*Styles for Play Game button */
+.playButton-container {
+    text-align: center;
+    margin-top: 20px;
+}
+#playButton {
+    background-color: rgb(247, 173, 17);
+    font-family: 'Kalam', cursive;
+    font-size: 160%;
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+
+}
+
