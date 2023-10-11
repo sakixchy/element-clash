@@ -7,6 +7,8 @@ let gameResult = document.querySelector('.result');
 let fireDiv = document.getElementById('fire');
 let waterDiv = document.getElementById('water');
 let snowDiv = document.getElementById('snow');
+let playButton = document.getElementById('playButton');
+let modal = document.getElementById('game-modal');
 
 
 /* Function for Computer Choice */
@@ -61,6 +63,7 @@ function game(userChoice) {
 function main (){
 
 /* Event listeners for clicking things */
+
     fireDiv.addEventListener('click', function() {
         game('fire');
     } )
@@ -72,7 +75,15 @@ function main (){
     snowDiv.addEventListener('click', function() {
         game('snow');
     } )
-} 
 
+    playButton.addEventListener('click', function() {
+        modal.style.display = 'none';
+    } )
+    
+}
+
+
+/* Username pass onto scoreboard */
+let username = document.getElementById('username-input').value;
 
 main();
