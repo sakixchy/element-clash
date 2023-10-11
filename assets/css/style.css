@@ -109,7 +109,7 @@ body {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: rgb(255, 255, 255);
     margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -127,4 +127,17 @@ body {
     text-align: center;
     font-size: 200%;
 
+}
+
+#username {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    left: 620px;
+    bottom: 424px;
+   
 }
