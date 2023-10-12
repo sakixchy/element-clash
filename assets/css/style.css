@@ -159,3 +159,24 @@ body {
 
 }
 
+/* styles for expression on win or lose */
+#happy-puffle {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#sad-puffle {
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
