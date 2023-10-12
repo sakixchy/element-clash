@@ -9,6 +9,7 @@ let waterDiv = document.getElementById('water');
 let snowDiv = document.getElementById('snow');
 let playButton = document.getElementById('playButton');
 let modal = document.getElementById('game-modal');
+let usernameInput = document.getElementById('username-input');
 
 /* Username input shows in scoreboard */
 document.addEventListener('DOMContentLoaded', function() {
