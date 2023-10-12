@@ -12,6 +12,8 @@ let modal = document.getElementById('game-modal');
 let usernameInput = document.getElementById('username-input');
 let happyPuffle = document.getElementById('happy-puffle');
 let sadPuffle = document.getElementById('sad-puffle');
+let restartButton = document.getElementById('restart-button');
+
 
 /* Username input shows in scoreboard */
 document.addEventListener('DOMContentLoaded', function() {
@@ -108,6 +110,9 @@ function main (){
         modal.style.display = 'none';
     } )
     
+    restartButton.addEventListener('click', function() {
+        window.location.reload();
+    })
 }
 
 
