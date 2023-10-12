@@ -10,6 +10,19 @@ let snowDiv = document.getElementById('snow');
 let playButton = document.getElementById('playButton');
 let modal = document.getElementById('game-modal');
 
+/* Username input shows in scoreboard */
+document.addEventListener('DOMContentLoaded', function() {
+
+    let usernameSpan = document.getElementById('username-score'); 
+    let username = ''; 
+
+    usernameInput.addEventListener('input', function() {
+        username = this.value;
+        usernameSpan.textContent = username; 
+    });
+
+});
+
 
 /* Function for Computer Choice */
 function getComputerChoice () {
@@ -82,8 +95,5 @@ function main (){
     
 }
 
-
-/* Username pass onto scoreboard */
-let username = document.getElementById('username-input').value;
 
 main();
