@@ -3,7 +3,7 @@ let userScore = 0;
 let computerScore = 0;
 let userScoreSpan = document.getElementById("user-score");
 let computerScoreSpan = document.getElementById("computer-score");
-let gameResult = document.querySelector('.result');
+let gameResult = document.querySelector('.game-text');
 let fireDiv = document.getElementById('fire');
 let waterDiv = document.getElementById('water');
 let snowDiv = document.getElementById('snow');
@@ -13,6 +13,19 @@ let usernameInput = document.getElementById('username-input');
 let happyPuffle = document.getElementById('happy-puffle');
 let sadPuffle = document.getElementById('sad-puffle');
 let restartButton = document.getElementById('restart-button');
+let outcomeModal = document.getElementById('outcome-modal');
+
+
+/* Game Outcome Modal */
+function checkWin() {
+    if (userScore >= 10) {
+        outcomeModal.style.display = 'block';
+    }
+    if (computerScore >= 10) {
+        outcomeModal.style.display = 'block';
+    }
+}
+
 
 
 /* Username input shows in scoreboard */
@@ -51,6 +64,7 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScoreSpan.innerHTML = userScore;
     gameResult.innerHTML = userChoice + " beats " + computerChoice + ". You win!";
+    checkWin();
 }
 
 
@@ -58,11 +72,13 @@ function lose(userChoice, computerChoice) {
     computerScore++;
     computerScoreSpan.innerHTML = computerScore;
     gameResult.innerHTML = userChoice + " loses to " + computerChoice + ". You lost!";
+    checkWin();
 }
 
 function draw(userChoice, computerChoice) {
     userScoreSpan.innerHTML = userScore;
     gameResult.innerHTML = userChoice + " vs " + computerChoice + ". It's a draw!";
+    checkWin();
 }
 
 /* Game function for elements */

@@ -31,6 +31,8 @@
             <div class="score-board">
                 <span id="username-score"></span>: <span id="user-score">0</span><span> </span>Computer: <span id="computer-score">0</span>
             </div>
+             <!--Result-->
+             <div class="game-text"></div>
             <!--Expression for win or lose-->
             <img id="happy-puffle" src="assets/images/happy-puffle.png" alt="happy expression">
             <img id="sad-puffle" src="assets/images/sad-puffle.png" alt="sad expression">
@@ -46,11 +48,11 @@
                     <img src="assets/images/snow.png">
                 </div>
             </div>
-             <!-- Result Display -->
-             <div id="result-modal" class="result-modal">
-                <div class="result-modal-content">
-                    <div class="result-text">
-                      <span>You </span><span id="match-winner"></span><span> !</span>
+             <!-- Game Outcome Modal -->
+             <div id="outcome-modal" class="outcome-modal">
+                <div class="outcome-modal-content">
+                    <div class="outcome-text">
+                      <span id="username-score"> </span><span id="match-winner"></span><span> !</span>
                     </div>
                     <div class="restart">
                         <button id="restart-button">RESTART</button>

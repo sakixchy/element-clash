@@ -88,11 +88,10 @@ body {
 }
 
 /* Game results styles. */
-.result {
+.game-text {
     text-align: center;
     font-size: 200%;
     text-transform: capitalize;
-
 }
 
 /* Styles for Modal */
@@ -182,8 +181,8 @@ body {
 }
 
 /* Styles for Result Modal */
-.result-modal {
-    display: block;
+.outcome-modal {
+    display: none;
     background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     top: 0;
@@ -192,7 +191,7 @@ body {
     height: 100%;
 }
 
-.result-modal-content {
+.outcome-modal-content {
     background-color: rgb(255, 255, 255);
     margin: 10% auto;
     padding: 20px;
@@ -204,7 +203,7 @@ body {
     border-radius: 20px;
 }
 
-.result-text {
+.outcome-text {
     font-size: 3em;
     text-align: center;
 }
