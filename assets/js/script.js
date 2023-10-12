@@ -71,11 +71,13 @@ function game(userChoice) {
         case 'waterfire':
         case 'snowwater':
            win(userChoice, computerChoice);
+           showHappyPuffle();
            break;
         case 'firewater':
         case 'watersnow':
         case 'snowfire':
             lose(userChoice, computerChoice);
+            showSadPuffle();
             break;
         case 'firefire':
         case 'waterwater':
