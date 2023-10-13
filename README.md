@@ -11,4 +11,9 @@ You'll be playing against the Computer, and the game will be played for a total 
 In the event of a draw, neither player will receive a point.<br>
 The winner will be determined by the first player to reach 10 points.
 
-Try out your luck and see if you can win! [PLAY](https://sakixchy.github.io/element-clash/)
+Use the elements and see if you can reach 10 points before Computer! [play here](https://sakixchy.github.io/element-clash/)
+
+## Wireframe
+
+![an image of wirefram for desktop](assets/images/wireframe-desktop.jpeg)
+
