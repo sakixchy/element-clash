@@ -221,3 +221,13 @@ body {
     height: 40px;
     border-radius: 30px;
 }
+
+
+/* Media Query Styles for smaller screen sizes */
+
+/* Styles for Mobile Devices */
+@media only screen and ( max-width: 480px) {
+    body {
+        width: 100vh;
+    }
+}
