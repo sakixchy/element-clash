@@ -29,7 +29,9 @@
         <div class="game-container">
             <!--Scoreboard-->
             <div class="score-board">
-                <span id="username-score"></span>: <span id="user-score">0</span><span> </span>Computer: <span id="computer-score">0</span>
+                <span id="username-score"></span>: <span id="user-score">0</span><span></span>
+                <span id="computer-name">Computer:</span>
+                <span id="computer-score">0</span>
             </div>
              <!--Result-->
              <div class="game-text"></div>
@@ -70,7 +72,7 @@
                     </p>
                     <!--Username Input-->
                     <div class="username">
-                    <input type="text" id="username-input" autocomplete="off" placeholder="Enter Your Name">
+                    <input type="text" id="username-input" autocomplete="off" maxlength="7" placeholder="Enter Your Name">
                     </div>
                     <!--Play Button-->
                     <div class="playButton-container">
