@@ -15,6 +15,7 @@ let sadPuffle = document.getElementById('sad-puffle');
 let restartButton = document.getElementById('restart-button');
 let outcomeModal = document.getElementById('outcome-modal');
 let username = '';
+let footer = document.getElementById('footer')
 
 
 /* Game Outcome Modal */
@@ -124,11 +125,14 @@ function main (){
 
     playButton.addEventListener('click', function() {
         modal.style.display = 'none';
+        footer.style.display = 'block';
     } )
     
     restartButton.addEventListener('click', function() {
         window.location.reload();
     })
+
+    
 }
 
 

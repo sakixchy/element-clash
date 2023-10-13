@@ -223,7 +223,8 @@ body {
 }
 
 /* Styles for footer */
-.footer {
+#footer {
+    display: none;
     background-color: aliceblue;
     position: fixed;
     left: 0;
@@ -330,6 +331,9 @@ body {
     .outcome-text {
         font-size: 40px;
     }
+
+  
+    
 }
 
 
