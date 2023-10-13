@@ -424,7 +424,7 @@ body {
     }
 
     .game-text {
-        font-size: small;
+        font-size: medium;
     }
 
     .elements img {
@@ -513,7 +513,7 @@ body {
     }
 
     .game-text {
-        font-size: small;
+        font-size: large;
     }
 
     .elements img {
@@ -551,6 +551,95 @@ body {
 
     #playButton {
         width: 50%; 
+        color: rgb(0, 0, 0);
+    }
+
+    .restart {
+        padding-top: 10px;
+    }
+
+    #restart-button {
+        width: 50%; 
+        color: rgb(0, 0, 0);
+    }
+    
+    #username-score {
+        font-size: 24px;
+    }
+
+    #user-score {
+        font-size: 24px;
+    }
+    
+    #computer-name {
+        font-size: 24px;
+    }
+    
+    #computer-score {
+        font-size: 24px;
+    }
+
+    .outcome-text {
+        font-size: 40px;
+    }
+}
+
+/* Styles for large monitors */
+@media only screen and (min-width: 1281px) {
+    .game-container {
+        margin: 0 auto;
+        max-width: 80%; 
+        border-radius: 20px;
+        box-shadow: 0px 8px rgb(128, 128, 128);
+        position: relative;
+        padding-bottom: 20px; 
+    }
+
+    .game-moves {
+        max-width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .game-text {
+        font-size: large;
+    }
+
+    .elements img {
+        width: 50px; 
+    }
+
+    #water img {
+        width: 80px;
+    }
+
+    .modal-content {
+        margin: 10% auto;
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        font-size: 20px; 
+     
+    }
+
+    .outcome-modal-content {
+        margin: 8% auto;
+        width: 80%;
+        height: auto;
+        max-width: 350px;
+        font-size: 16px; 
+    }
+
+    #username-input {
+        width: 30%; 
+    }
+
+    .playButton-container {
+        margin-top: 10px;
+    }
+
+    #playButton {
+        width: 30%; 
         color: rgb(0, 0, 0);
     }
 
