@@ -14,26 +14,26 @@ let happyPuffle = document.getElementById('happy-puffle');
 let sadPuffle = document.getElementById('sad-puffle');
 let restartButton = document.getElementById('restart-button');
 let outcomeModal = document.getElementById('outcome-modal');
+let username = '';
 
 
 /* Game Outcome Modal */
 function checkWin() {
     if (userScore >= 10) {
         outcomeModal.style.display = 'block';
+        document.querySelector('#username-outcome').textContent = username + " won!";
     }
     if (computerScore >= 10) {
         outcomeModal.style.display = 'block';
+        document.querySelector('#username-outcome').textContent = username + " lost!";
     }
 }
-
 
 
 /* Username input shows in scoreboard */
 document.addEventListener('DOMContentLoaded', function() {
 
-    let usernameSpan = document.getElementById('username-score'); 
-    let username = ''; 
-
+    let usernameSpan = document.getElementById('username-score');  
     usernameInput.addEventListener('input', function() {
         username = this.value;
         usernameSpan.textContent = username; 
