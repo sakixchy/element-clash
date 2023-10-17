@@ -132,9 +132,19 @@ as the driving force behind a smiliar gaming experience. <br>
 Copyright information is also put in there.
 
 ### Responsive layout
-The website and the game itself have been optimized for seamless playon all major devices <br>
+The website and the game itself have been optimized for seamless play on all major devices <br>
 with one exception: The Galaxy Fold in its closed form. Due to the width of the in in this state <br>
 it may not provide the best experience for users. We recommend users to use the device in its open position <br>
 when playing the game for optimal experience.
+
+___
+
+## Technologies
+- **HTML** for showing the content and structuring the website.
+- **CSS**  for styling the website and giving it the gaming visuals.
+- [Gitpod](https://www.gitpod.io/) IDE to work on my website.
+- [GitHub](https://www.github.com/) to save code and deploy live website.
+- [Google Fonts](https://fonts.google.com/) for typography.
+- [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=CjwKCAjwo9unBhBTEiwAipC113X24sWLN9_P9LZ-X5AGhpq_VV7aagvL3dAZRIpwDHZNDMB_FVJhQBoCDM4QAvD_BwE) for creating the wireframes.
 
 ___
