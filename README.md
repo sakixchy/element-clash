@@ -72,23 +72,24 @@ ___
 ## Design
 ### Color Scheme
 The website comes with a color scheme reminiscent of the original 'Club Penguin'. <br>
-it evokes a sense of nostalgia and familiarity for prior fans while <br>
+It evokes a sense of nostalgia and familiarity for prior fans while <br>
 offering a welcoming atmosphere for new players. <br>
-![an image of color palette](assets/images/readme/color-scheme.png) <br
+![an image of color palette](assets/images/readme/color-scheme.png) 
 > RGB (15, 143, 233) <br>
 
 ### Typography 
 The 'Kalam' font was used to serve two purpose. <br>
 Firstly, its old-school aesthetic aligns perfectly with <br> 
-the characteristics of the original game, evoking a sense of nostalgia for old fans. <br
+the characteristics of the original game, evoking a sense of nostalgia for old fans. <br>
 Secondly, its playful appearance adds a touch of charm for the visual experience to the users. <br>
 ['Kalam' Font](https://fonts.google.com/share?selection.family=Kalam:wght@300)
 
 ### Images
-The images used are all representative of the orginal game, from the logo to each element <br> 
-inside the game. Thi was intentionally done to give the game an explicitly familiar <br>
+The images used are all representative of the original game, from the logo to each element <br> 
+inside the game. This was intentionally done to give the game an explicitly familiar <br>
 experience, allowing fans to get a clear grasp of its visual style.
 
+___
 
 
 
