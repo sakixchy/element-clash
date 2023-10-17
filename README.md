@@ -37,8 +37,34 @@ ___
 ___
 
 ## Structure
+### Element Clash 
+#### Modal 
+- It contains the information about the game.
+- A clear instruction to play the game.
+- A username input for displaying user score and outcome of the game.
+- A 'Play' button to get into game interface.
+
+##### User Goal:
+> - Resonate with the old Club Penguin franchise and the game itself.
+> - Be able to play the game without the fear of malicious activity.
+
+##### Website Goal:
+> - A concise text about the game for the user to not get bored with, <br>
+and jump into action.
+
+#### Game (UI) Interface
+- The logo of the franchise.
+- A score counter for user and computer.
+- An image of different facial expression after winning or losing a round.
+- Three types of buttons as an image to choose from: (Fire), (Water), (Snow).
+
+##### User Goal:
+> -  Be aware of the points accumulated against computer.
+> -  Various expressions that correspond to winning or losing, <br>
+enhancing the enjoyment and overall visual experience.
+___
 
 
 
-
+ 
 
