@@ -59,9 +59,14 @@ and jump into action.
 - Three types of buttons as an image to choose from: (Fire), (Water), (Snow).
 
 ##### User Goal:
-> -  Be aware of the points accumulated against computer.
-> -  Various expressions that correspond to winning or losing, <br>
+> - Be aware of the points accumulated against computer.
+> - Various expressions that correspond to winning or losing, <br>
 enhancing the enjoyment and overall visual experience.
+
+##### Website Goal:
+> - Ensure to provide with feedback, whether they win or lose <br> 
+through written messages.
+> - Provide a smooth experience from all aspects of the game.
 ___
 
 
