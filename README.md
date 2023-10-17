@@ -75,10 +75,10 @@ The website comes with a color scheme reminiscent of the original 'Club Penguin'
 It evokes a sense of nostalgia and familiarity for prior fans while <br>
 offering a welcoming atmosphere for new players. <br>
 ![an image of color palette](assets/images/readme/color-scheme.png) 
-> RGB (15, 143, 233) <br>
+> RGB (15, 143, 233) 
 
 ### Typography 
-The 'Kalam' font was used to serve two purpose. <br>
+The 'Kalam' font was used to serve two purpose: <br>
 Firstly, its old-school aesthetic aligns perfectly with <br> 
 the characteristics of the original game, evoking a sense of nostalgia for old fans. <br>
 Secondly, its playful appearance adds a touch of charm for the visual experience to the users. <br>
@@ -91,9 +91,25 @@ experience, allowing fans to get a clear grasp of its visual style.
 
 ___
 
+## Features
+### Modal
+![an image of modal after the page loaded](assets/images/readme/modal-feature.png) <br>
+This is very beginning of the user interaction, whereby the user is greeted with the modal <br>
+that displays useful information and some input from the user is required here. <br>
 
+![an image of modal after the game has ended](assets/images/readme/game-outcome-feature.png) <br>
+This particular modal is shown when the game has reached to an end, meaning either user or computer <br>
+has reached total of 10 Points. it's there to show in text the result of the game as well as a restart button. <br>
 
+![an image of user input](assets/images/readme/user-input-feature.png) <br>
+This username field is there to display the score in the game associated with your name.
+It has a maximum limit of seven (7) letters to ensure the scoreboard remians neat and organazed. <br>
 
+### Game Components and Mechanincs
+![an image of game moves](assets/images/readme/game-moves-feature.png) <br>
+There are three (3) image-buttons with hover effecst on Laptops/Desktops, <br>
+and larger-scale effects on mobile devices. These buttons represent game moves that a user can make <br>
+to achieve an outcome against the computer.  <br>
 
 
 
