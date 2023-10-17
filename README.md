@@ -107,11 +107,34 @@ It has a maximum limit of seven (7) letters to ensure the scoreboard remians nea
 
 ### Game Components and Mechanincs
 ![an image of game moves](assets/images/readme/game-moves-feature.png) <br>
-There are three (3) image-buttons with hover effecst on Laptops/Desktops, <br>
+There are three (3) image-buttons with hover effects on Laptops/Desktops, <br>
 and larger-scale effects on mobile devices. These buttons represent game moves that a user can make <br>
 to achieve an outcome against the computer.  <br>
 
+![an image of scoreboard](assets/images/readme/score-count-feature.png) <br>
+The score is tracked and displayed in this designated area. It will only add a value for wins while ignore draw and loses. <br>
 
+![an image of win state in text](assets/images/readme/win-state-feature.png) <br>
+![an image of draw state in text](assets/images/readme/draw-state-feature.png) <br>
+![an image of lose state in text](assets/images/readme/lose-state-feature.png) <br>
+These messages will be displayed corresponding to state of the game, they can make the user follow <br>
+their moves and understand the reason behind the outcome. Also, as part of expressing the current state, <br>
+there are these creatures from the 'Club Penguin' universe called Puffles, and they show the emotional state <br>
+of the Puffles, who can either appear happy or sad, reflecting the current game state. <br>
 
- 
+![an image of franchise logo](assets/images/game-logo.png) <br>
+The 'Club Penguin' logo is iconic to many people who were into browser games in the old times. <br>
 
+### Footer
+![an image of footer](assets/images/readme/footer-feature.png) <br>
+A word from developer about the fond memoeries associated with the original game, which served <br>
+as the driving force behind a smiliar gaming experience. <br>
+Copyright information is also put in there.
+
+### Responsive layout
+The website and the game itself have been optimized for seamless playon all major devices <br>
+with one exception: The Galaxy Fold in its closed form. Due to the width of the in in this state <br>
+it may not provide the best experience for users. We recommend users to use the device in its open position <br>
+when playing the game for optimal experience.
+
+___
