@@ -156,8 +156,10 @@ ___
 
 | User Story | Expected Outcome | Actual Outcome |
 |------------|-------------|-----------------|
-| As a user, when I load the website, I want to see a modal containing information about the game, a username input field, and a play button. | The modal should give an introduction to what the game is about. The modal should be clear and concise and capture user's interest| Modal displays game information, username input field, and play button. | 
+| As a user, when I load the website, I want to see a modal containing information about the game, a username input field, and a play button. | The modal should give an introduction to what the game is about. The modal should be clear and concise and capture user's interest. | Modal displays game information, username input field, and play button. | 
 | As a user, I will be able to enter my username in the input field.  | Username input field is visible and a placeholder to guide the user | Username input field is functional and allows user to type upto 7 characters. |
-| As a user, I will be able to click Play button and start playing  | When the user clicks the "Play" button, it should close the modal and display the game area or interface.| When the user clicks the "Play" button, the modal closes.
-The game area is displayed, showing the game interface. | 
+| As a user, I will be able to click Play button and start playing  | When the user clicks the "Play" button, it should close the modal and display the game area or interface.| When the user clicks the "Play" button, the modal closes. |
+| As a user, I want to able to click on the 'game moves', which are Fire, Water and Snow. | Clicking these buttons should display an outcome. | The game interface changes in visuals upon clicking these buttons. |
+| As a user I will be able to keep track of mine and computer's points. | The scoreboard should have username with the points accumulated during the game. | The scoreboard shows the points of the user as well as the computer. |
+| As a user I want to see the game outcome and a restart button after end of the game | After the game ends, there should be a clear display of the game outcome, indicating whether the user won or lost. There should be a restart button that allows the user to start over the game. | Game outcome is displayed in a modal and a restart button that refreshes the page. |
 
