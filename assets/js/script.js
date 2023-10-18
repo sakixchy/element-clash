@@ -1,21 +1,21 @@
 /*Storing DOM in Variables */
 let userScore = 0;
 let computerScore = 0;
-let userScoreSpan = document.getElementById("user-score");
-let computerScoreSpan = document.getElementById("computer-score");
-let gameResult = document.querySelector('.game-text');
-let fireDiv = document.getElementById('fire');
-let waterDiv = document.getElementById('water');
-let snowDiv = document.getElementById('snow');
-let playButton = document.getElementById('playButton');
-let modal = document.getElementById('game-modal');
-let usernameInput = document.getElementById('username-input');
-let happyPuffle = document.getElementById('happy-puffle');
-let sadPuffle = document.getElementById('sad-puffle');
-let restartButton = document.getElementById('restart-button');
-let outcomeModal = document.getElementById('outcome-modal');
+const userScoreSpan = document.getElementById("user-score");
+const computerScoreSpan = document.getElementById("computer-score");
+const gameResult = document.querySelector('.game-text');
+const fireDiv = document.getElementById('fire');
+const waterDiv = document.getElementById('water');
+const snowDiv = document.getElementById('snow');
+const playButton = document.getElementById('playButton');
+const modal = document.getElementById('game-modal');
+const usernameInput = document.getElementById('username-input');
+const happyPuffle = document.getElementById('happy-puffle');
+const sadPuffle = document.getElementById('sad-puffle');
+const restartButton = document.getElementById('restart-button');
+const outcomeModal = document.getElementById('outcome-modal');
 let username = '';
-let footer = document.getElementById('footer')
+const footer = document.getElementById('footer')
 
 
 /* Game Outcome Modal */

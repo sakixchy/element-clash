@@ -140,11 +140,28 @@ when playing the game for optimal experience.
 ___
 
 ## Technologies
-- **HTML** for showing the content and structuring the website.
-- **CSS**  for styling the website and giving it the gaming visuals.
+- HTML for showing the content and structuring the website.
+- CSS  for styling the website and giving it the gaming visuals.
 - [Gitpod](https://www.gitpod.io/) IDE to work on my website.
 - [GitHub](https://www.github.com/) to save code and deploy live website.
 - [Google Fonts](https://fonts.google.com/) for typography.
 - [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=CjwKCAjwo9unBhBTEiwAipC113X24sWLN9_P9LZ-X5AGhpq_VV7aagvL3dAZRIpwDHZNDMB_FVJhQBoCDM4QAvD_BwE) for creating the wireframes.
 
 ___
+
+## Testing
+### User story testing
+| Expectations                                                               | Realisation
+|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------
+| **As a first time user:**                                                  |
+| I want to be able to navigate through different pages intuitiv             |At t                                                        |
+| I want to find the content section and start watching the series.          |The main contents with links are found in middle of the page with title of each series.
+| I can play youtube videos.                                                 |The user can play soundtracks by clicking on the play button or press play.
+| I can subscribe to newsletter to keep up-to-date.                          |The user can fill in the form and click subscribe button to start receiving mails.
+| **As a returning user:**                                                   |
+| I can follow up with any new changes made to website.                      |The user will be notified when subscribed and can check the folowing content being chnaged or updated based on the text on email.                                                                          |
+| I can see the progression of which links i visited last <br>               |The user will see a different color of visited links therefore know what has been already watched.
+| to watch the series.                                                       |
+| I can listen to the soundtracks.                                           |The user can play a song and it will start playing only then and stop when its ended.
+|                                                                            | 
+| **All users:**                                       
