@@ -142,26 +142,22 @@ ___
 ## Technologies
 - HTML for showing the content and structuring the website.
 - CSS  for styling the website and giving it the gaming visuals.
+- JavaScript for putting logic and interaction in the game.
 - [Gitpod](https://www.gitpod.io/) IDE to work on my website.
 - [GitHub](https://www.github.com/) to save code and deploy live website.
 - [Google Fonts](https://fonts.google.com/) for typography.
 - [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=CjwKCAjwo9unBhBTEiwAipC113X24sWLN9_P9LZ-X5AGhpq_VV7aagvL3dAZRIpwDHZNDMB_FVJhQBoCDM4QAvD_BwE) for creating the wireframes.
+- ColorZilla Extention for picking the exact color from original game. 
 
 ___
 
 ## Testing
-### User story testing
-| Expectations                                                               | Realisation
-|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------
-| **As a first time user:**                                                  |
-| I want to be able to navigate through different pages intuitiv             |At t                                                        |
-| I want to find the content section and start watching the series.          |The main contents with links are found in middle of the page with title of each series.
-| I can play youtube videos.                                                 |The user can play soundtracks by clicking on the play button or press play.
-| I can subscribe to newsletter to keep up-to-date.                          |The user can fill in the form and click subscribe button to start receiving mails.
-| **As a returning user:**                                                   |
-| I can follow up with any new changes made to website.                      |The user will be notified when subscribed and can check the folowing content being chnaged or updated based on the text on email.                                                                          |
-| I can see the progression of which links i visited last <br>               |The user will see a different color of visited links therefore know what has been already watched.
-| to watch the series.                                                       |
-| I can listen to the soundtracks.                                           |The user can play a song and it will start playing only then and stop when its ended.
-|                                                                            | 
-| **All users:**                                       
+### Manual Testing
+
+| User Story | Expected Outcome | Actual Outcome |
+|------------|-------------|-----------------|
+| As a user, when I load the website, I want to see a modal containing information about the game, a username input field, and a play button. | The modal should give an introduction to what the game is about. The modal should be clear and concise and capture user's interest| Modal displays game information, username input field, and play button. | 
+| As a user, I will be able to enter my username in the input field.  | Username input field is visible and a placeholder to guide the user | Username input field is functional and allows user to type upto 7 characters. |
+| As a user, I will be able to click Play button and start playing  | When the user clicks the "Play" button, it should close the modal and display the game area or interface.| When the user clicks the "Play" button, the modal closes.
+The game area is displayed, showing the game interface. | 
+
