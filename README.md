@@ -15,7 +15,7 @@ ___
 - [Testing](#Testing)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
-- [Acknowledgement](#Acknowledgment)
+- [Acknowledgement](#Acknowledgement)
 
 ___
 
