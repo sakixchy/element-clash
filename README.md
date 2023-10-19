@@ -152,7 +152,7 @@ ___
 ___
 
 ## Testing
-### Manual Testing
+### User Story Testing
 
 | User Story | Expected Outcome | Actual Outcome |
 |------------|-------------|-----------------|
@@ -163,3 +163,12 @@ ___
 | As a user I will be able to keep track of mine and computer's points. | The scoreboard should have username with the points accumulated during the game. | The scoreboard shows the points of the user as well as the computer. |
 | As a user I want to see the game outcome and a restart button after end of the game | After the game ends, there should be a clear display of the game outcome, indicating whether the user won or lost. There should be a restart button that allows the user to start over the game. | Game outcome is displayed in a modal and a restart button that refreshes the page. |
 
+___
+
+### Browser Testing
+
+| Browser | Pass / Fail |
+|---------|-------------|
+| Chrome  |      ✓      |
+| Safari  |      ✓      |
+| Firefox |      ✓      |
