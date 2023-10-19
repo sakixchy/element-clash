@@ -1,7 +1,12 @@
 # Element Clash Game
 ![Multi Device Mock up for Element Clash](assets/images/multi-device-mockup.png)
 ___
+## Website Goal
+This web-based game was created to fill the void left by the shutdown of the original game.<br>
+Long-time fans of this franchise can now rejoice and relive their favorite moments on this website while <br>
+enjoying a game inspired by the original. The visual representation is designed to create a sense of connection and <br> familiarity for the user.
 
+## Website Information
 This is a web-based game, similar to the traditional 'Rock, Paper, Scissors' game. <br>
 Here are few distinctive features that sets this apart, the core role of the game are as follows : <br>
 - Water beats Fire
@@ -176,6 +181,16 @@ ___
 ___
 
 ### Automated Testing
-
+###### Code Testing
 - Passes the HTML Validator test [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsakixchy.github.io%2Felement-clash%2F) <br>
 - Passes the CSS  Validator test [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsakixchy.github.io%2Felement-clash%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) <br>
+- Passes the JavaScript Quality Control Tool [here](https://jshint.com/) <br>
+
+###### Lighthouse Testing
+1. Desktop <br>
+![an image of lighthouse testing for desktop](assets/images/testing/lighthouse-test-desktop.png) <br>
+
+2. Mobile <br>
+![an image of lighthouse testing for mobile](assets/images/testing/lighthouse-test-mobile.png) <br>
+
+
