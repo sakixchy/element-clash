@@ -249,8 +249,21 @@ ___
 ## Credits
 ### Media
 #### Images
+- Favicon is taken from [here](https://static.wikia.nocookie.net/club-penguin-rewritten/images/f/f9/Card_Jitsu_Deck.png/revision/latest/scale-to-width-down/700?cb=20180603012940)
+- 'Club Penguin' franchise logo used in header from [here.](https://1000logos.net/club-penguin-logo/)
+- Fire, Water and Snow elements taken from [here.](https://clubpenguin.fandom.com/wiki/Starter_Deck)
+- Puffle expressions were taken from : [happy puffle here](https://static.wikia.nocookie.net/newclubpenguin/images/0/0f/Blue_Puffle.png/revision/latest?cb=20200712035104) and [sad puffle here.](https://static.wikia.nocookie.net/clubpenguin/images/8/8e/BluePuffleSleepy.png/revision/latest/scale-to-width-down/250?cb=20140831122227.)
 
+### Code
+This project was inspired by a YouTube tutorial based on a similar game (Rock, Paper, Scissors). <br>
+I successfully integrated the main components of the game mechanics into my project, all thanks to this tutorial [here.]
+(https://www.youtube.com/watch?v=jaVNP3nIAv0) <br>
 
+The modal feature on my page were shown by this Youtuber [here.](https://www.youtube.com/watch?v=6ophW7Ask_0)
+___
 
-
-
+## Acknowledgement
+I would like to thank my mentor Ronan McClelland for guiding me and giving me the power to complete this project. <br>
+I would also like to thank my peers over at Slack, as usual they have been very supportive and giving me motivation.
+I really appreciate everyone who were nice and helpful towards me, not only does it make coding fun but also <br>
+make you feel a sense belonging within the community.
