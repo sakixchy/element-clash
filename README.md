@@ -3,11 +3,19 @@
 ___
 
 # Table of Contents
-1. [Website Goal](#Website-Goal)
-2. [Website Information](#Website-Information)
-3. [Wireframes](#Wireframes)
-4. [User Experience (UX)](#User-Experience-(UX))
-
+- [Website Goal](#Website-Goal)
+- [Website Information](#Website-Information)
+- [Wireframes](#Wireframes)
+- [User Experience (UX)](#User-Experience-UX)
+- [Structure](#Structure)
+- [Design](#Design)
+- [Features](#Features)
+- [Future Features Implementations](#Future-Features-Implementation)
+- [Technologies](#Technologies)
+- [Testing](#Testing)
+- [Deployment](#Deployment)
+- [Credits](#Credits)
+- [Acknowledgement](#Acknowledgment)
 
 ___
 
@@ -154,7 +162,7 @@ when playing the game for optimal experience.
 
 ___
 
-### Future Features Implementation
+## Future Features Implementation
 - Add a required username input before able to click the play button.
 - Add some sort of high-score system.
 ___
