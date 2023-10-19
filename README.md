@@ -256,8 +256,7 @@ ___
 
 ### Code
 This project was inspired by a YouTube tutorial based on a similar game (Rock, Paper, Scissors). <br>
-I successfully integrated the main components of the game mechanics into my project, all thanks to this tutorial [here.]
-(https://www.youtube.com/watch?v=jaVNP3nIAv0) <br>
+I successfully integrated the main components of the game mechanics into my project, all thanks to this tutorial [here.](https://www.youtube.com/watch?v=jaVNP3nIAv0) <br>
 
 The modal feature on my page were shown by this Youtuber [here.](https://www.youtube.com/watch?v=6ophW7Ask_0)
 ___
