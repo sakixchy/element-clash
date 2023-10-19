@@ -144,6 +144,11 @@ when playing the game for optimal experience.
 
 ___
 
+### Future Features Implementation
+- Add a required username input before able to click the play button.
+- Add some sort of high-score system.
+___
+
 ## Technologies
 - HTML for showing the content and structuring the website.
 - CSS  for styling the website and giving it the gaming visuals.
@@ -170,6 +175,14 @@ ___
 
 ___
 
+### Feature Testing
+- I have checked the user can enter a username and not go over the capped 7 characters limit.
+- I have checked the user can click on the 'Play' button and it no longer shows the modal.
+- I have checked the user can click on element buttons to make their moves and it shows the corresponding results.
+- I have checked the scoreboard updates by one 1 points upon each win whether by user or computer.
+- I have checked the outcome modal appears when the game ends, therein ability to restart the game.
+___
+
 ### Browser Testing
 
 | Browser | Pass / Fail |
@@ -192,5 +205,9 @@ ___
 
 2. Mobile <br>
 ![an image of lighthouse testing for mobile](assets/images/testing/lighthouse-test-mobile.png) <br>
+
+___
+
+###
 
 
