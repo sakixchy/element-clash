@@ -172,3 +172,10 @@ ___
 | Chrome  |      ✓      |
 | Safari  |      ✓      |
 | Firefox |      ✓      |
+
+___
+
+### Automated Testing
+
+- Passes the HTML Validator test [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsakixchy.github.io%2Felement-clash%2F) <br>
+- Passes the CSS  Validator test [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsakixchy.github.io%2Felement-clash%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) <br>

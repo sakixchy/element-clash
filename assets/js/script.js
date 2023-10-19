@@ -15,7 +15,7 @@ const sadPuffle = document.getElementById('sad-puffle');
 const restartButton = document.getElementById('restart-button');
 const outcomeModal = document.getElementById('outcome-modal');
 let username = '';
-const footer = document.getElementById('footer')
+const footer = document.getElementById('footer');
 
 
 /* Game Outcome Modal */
@@ -113,24 +113,24 @@ function main (){
 
     fireDiv.addEventListener('click', function() {
         game('fire');
-    } )
+    } );
 
     waterDiv.addEventListener('click', function() {
         game('water');
-    } )
+    } );
 
     snowDiv.addEventListener('click', function() {
         game('snow');
-    } )
+    } );
 
     playButton.addEventListener('click', function() {
         modal.style.display = 'none';
         footer.style.display = 'block';
-    } )
+    } );
     
     restartButton.addEventListener('click', function() {
         window.location.reload();
-    })
+    });
 
     
 }
