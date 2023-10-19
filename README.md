@@ -1,6 +1,16 @@
 # Element Clash Game
 ![Multi Device Mock up for Element Clash](assets/images/multi-device-mockup.png)
 ___
+
+# Table of Contents
+1. [Website Goal](#Website-Goal)
+2. [Website Information](#Website-Information)
+3. [Wireframes](#Wireframes)
+4. [User Experience (UX)](#User-Experience-(UX))
+
+
+___
+
 ## Website Goal
 This web-based game was created to fill the void left by the shutdown of the original game.<br>
 Long-time fans of this franchise can now rejoice and relive their favorite moments on this website while <br>
@@ -256,7 +266,8 @@ ___
 
 ### Code
 This project was inspired by a YouTube tutorial based on a similar game (Rock, Paper, Scissors). <br>
-I successfully integrated the main components of the game mechanics into my project, all thanks to this tutorial [here.](https://www.youtube.com/watch?v=jaVNP3nIAv0) <br>
+I successfully integrated the main components of the game mechanics into my project, 
+all thanks to this tutorial [here.](https://www.youtube.com/watch?v=jaVNP3nIAv0) <br>
 
 The modal feature on my page were shown by this Youtuber [here.](https://www.youtube.com/watch?v=6ophW7Ask_0)
 ___
@@ -264,5 +275,5 @@ ___
 ## Acknowledgement
 I would like to thank my mentor Ronan McClelland for guiding me and giving me the power to complete this project. <br>
 I would also like to thank my peers over at Slack, as usual they have been very supportive and giving me motivation.
-I really appreciate everyone who were nice and helpful towards me, not only does it make coding fun but also <br>
+I really appreciate everyone who were nice and helpful towards me, not only does it make coding fun but also 
 make you feel a sense belonging within the community.
