@@ -208,6 +208,49 @@ ___
 
 ___
 
-###
+## Deployment
+This project was deployed to Github pages.<br>
+These are the steps taken to deploy this project: <br>
+1. Go to the website [Github](https://github.com/)
+2. Click on 'Sign up' located at the top right corner of the page.
+3. Enter a valid and untaken email-address and password to complete the registration process.
+4. Sign-in to Github account.
+5. Click on `element-clash` from the list of repositories.
+6. Go to `Settings` on far-right from the header section.
+7. Click on `Pages` on the left side of the menu under **Code and automation** heading.
+8. Click on `Deploy from a branch` under **Source**.
+9. Select `main` from the dropwdown and the folder should remain `root` next to it.
+10. Click `Save` 
+11. A message will pop up telling the website is ready to be deployed.<br>
+Then refresh the page and a green outline at the top of the page will appear including<br>
+the deployed website link.
+12. Click on the link and the live website is on display.<br>
+The link to live website is [here](https://sakixchy.github.io/element-clash/)
+
+**To Clone the repository**
+1. On the Home of the `element-clash` in Github.
+2. CLick on the green `Code` button.
+3. Copy the **HTTPS** link under Clone sub heading.
+4. Open any code editor.
+5. Type in `git clone` in the terminal and paste the url from earlier.
+6. Press `Enter` to create a local version of this repository.
+
+**Download this the repository**
+1. On the Home of the `element-clash` in Github.
+2. CLick on the green `Code` button.
+3. Select `Download ZIP` at the bottom.
+4. Save the folder and extract it to desired location.
+5. Open any Code Editor.
+6. Find the repository from where it was saved on the system.
+7. Open it and the respository will be available to work offline.
+
+___
+
+## Credits
+### Media
+#### Images
+
+
+
 
 
